@@ -87,13 +87,46 @@ After starting the container, you'll see the setup page of Magento 2. You can us
 $ docker exec -it <container_name> install-magento
 ~~~
 
+or just use the bin commands 
+
+~~~
+bin/cli install-magento
+~~~
+
 ### Sample data
 
 ~~~
 $ docker exec -it <container_name> install-sampledata
 ~~~
 
+or just use the bin commands 
+
+~~~
+bin/cli install-sampledata
+~~~
+
 **Please note:** Sample data for Magento 2.2.2 doesn't work at the moment, see [this issue](https://github.com/alexcheng1982/docker-magento2/issues/11).
+
+
+### Magento commands cli 
+you can run all mangeto CLi from this bin 
+
+~~~
+bin/magento
+bin/magento cache:clean 
+bin/magento config:show 
+bin/magento sampledata:remove
+....
+.... 
+~~~
+### Start / Stop your containers 
+~~~
+bin/stop
+~~~
+~~~
+bin/start
+~~~
+
 
 ### Database
 
