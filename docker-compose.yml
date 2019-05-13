@@ -8,6 +8,10 @@ services:
       - db
     env_file:
       - env
+    volumes:
+      - ./src/app/code/Ecard:/var/www/html/app/code/Ecard:delegated
+      - ./src/app/design:/var/www/html/app/design:delegated
+      - ./src/app/etc:/var/www/html/app/etc:delegated  
   db:
     image: mysql:5.6.23
     volumes:
