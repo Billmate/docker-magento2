@@ -1,2 +1,5 @@
 .bash_history
 node_modules
+.idea/
+/.DS_Store
+.vscode/
