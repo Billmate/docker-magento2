@@ -81,6 +81,8 @@ echo "127.0.0.1 local.magento" | sudo tee -a /etc/hosts
 
 After starting the container, you'll see the setup page of Magento 2. You can use the script `install-magento` to quickly install Magento 2. The installation script uses the variables in the `env` file.
 
+For more information about how to install on the [Docker setup instead](https://magento.stackexchange.com/questions/268094/how-to-setup-development-environment-for-magento-2-with-docker)
+
 ### Magento 2
 
 ~~~
