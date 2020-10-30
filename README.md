@@ -50,7 +50,7 @@ $ docker exec -it <container_name> install-magento
 or just use the bin commands 
 
 ~~~
-bin/cli install-magento
+install-magento
 ~~~
 
 ### Sample data
@@ -62,7 +62,7 @@ $ docker exec -it <container_name> install-sampledata
 or just use the bin commands 
 
 ~~~
-bin/cli install-sampledata
+install-sampledata
 ~~~
 
 ### Create a DNS host entry for the site:
