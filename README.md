@@ -108,3 +108,9 @@ bin/magento cache:clean
 bin/magento config:show 
 bin/magento sampledata:remove
 ~~~
+
+## Docker settings
+
+As Magento 2 requires quite a lot of memory it may help to up the memory settings for Docker. 
+
+![Docker settings](resources/images/docker-settings.png)
