@@ -84,6 +84,7 @@ local.magento/admin
 ~~~
 
 **User:** admin
+
 **Password:** magentorocks1
 
 ### Working with Billmate Checkout Magento 2 Module
